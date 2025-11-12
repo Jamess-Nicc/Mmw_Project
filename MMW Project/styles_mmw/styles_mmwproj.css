@@ -1,0 +1,124 @@
+body{
+margin: 0;
+padding: 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+background:linear-gradient(to bottom, #FEA837, #DE741C, #B85B56, #84495F, #593E67);
+color: #9e2a2b;
+max-width: 100%;
+max-height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+/* 0 margin and padding removes the default setting of both by browser
+16px is the standard font-size, line height 1.5 improves readability
+for all devices, max-width 100% ensures content will adhere to the set standard.
+bg size cover, bg attachment fixed & bg no repeat enures entire gradient fills screen.*/
+
+.intrsec{
+text-align:left;
+padding-top:40px;
+padding-bottom:40px;
+padding-left: 20px;
+margin-top:80px;
+margin-left:40px;
+margin-right:40px;
+background-color: #DE741C;
+border-radius: 30px;
+}
+
+h1{
+margin-top: 50px;
+margin-left: 50px;
+}
+
+h2{
+font-size: 1.2rem;
+margin-left: 50px;
+}
+
+.division1{
+max-width: 250px;
+max-height: 25px;
+}
+
+.fig1{
+width: 100%;
+height:2%;
+}
+
+.logo{
+width:200px;
+padding:1px;
+
+}
+
+.ini{
+display: inline-block;
+}
+
+.di1{
+display:inline-block;
+color: #B85B56;
+}
+
+
+button{
+width:5%;
+height:5%;
+margin: 1.1em;
+padding: 1.1em;
+background: #B85B56;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+border-radius: 15px;
+font-size: 1.2rem;
+transition: transform 0.25s, color 0.25s ease;
+border-color:#DE741C;
+color:#e09f3e;
+}
+
+button:hover{
+background-color:#593E67;
+transform: scale(1.2);
+transition: transform 0.25s, color 0.25s ease;
+}
+
+.ikons{
+width: 100%;
+}
+
+input[type="button"]{
+width:20%;
+margin: 1.1em;
+padding: 1.1em;
+background: #B85B56;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+border-radius: 15px;
+font-size: 1.2rem;
+transition: transform 0.25s, color 0.25s ease;
+border-color:#DE741C;
+color:#e09f3e;
+}
+
+input[type="button"]:hover{
+background-color:#593E67;
+transform: scale(1.2);
+transition: transform 0.25s, color 0.25s ease;
+}
+
+.navbar{
+position:fixed;
+top: 0;
+margin-left:33%;
+left: 0;
+width: 100%;
+z-index: 1000;
+justify-content: center;
+}
+
+

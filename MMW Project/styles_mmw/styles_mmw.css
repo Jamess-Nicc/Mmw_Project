@@ -1,0 +1,152 @@
+body{
+padding-top: 50px;
+padding-bottom: 50px;
+margin-bottom: 0;
+margin-top: 0;
+margin-right: 0;
+margin-left: 0;
+background: linear-gradient(to bottom, #FEA837, #DE741C, #B85B56, #84495F, #593E67);
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+min-width: auto;
+min-height:auto;
+max-width: 100vw;
+max-height: 100vh;
+
+}
+
+.intro{
+background-color: #FEA837;
+border-radius: 25px; 
+margin-right: 50px;
+margin-left: 50px;
+margin-top: 50px;
+margin-bottom: 50px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+#abt{
+font-size: 1.2rem;
+
+}
+
+.navbar{
+text-align: left;
+font-size: 1.25rem;
+}
+
+.about-us{
+background-color: #FEA837;
+border-radius: 25px; 
+margin-right: 50px;
+margin-left: 50px;
+margin-top: 50px;
+margin-bottom: 50px;
+padding-top: 50px;
+padding-bottom: 25px;
+}
+
+p{
+margin-left: 20px;
+margin-right:20px;
+font-size: 1.25rem;
+}
+
+.video1 h2:first-child{
+background: #BF2C20;
+border-radius: 20px;
+margin-left: 20px;
+margin-right: 20px;
+color: white;
+}
+
+.video1 h2:nth-child(n+2){
+background: #BF2C20;
+border-radius: 20px;
+margin-left: 20px;
+margin-right: 20px;
+color: white;
+}
+
+
+
+#findsec{
+color:white;
+}
+
+li::marker{
+color: #BF2C20;
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+a{
+color:white;
+text-decoration: none;
+background-color: #BF2C20;
+display: inline-block;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 20px;
+margin-bottom: 10px;
+transition: transform 0.5s, color 0.5s ease;
+}
+
+
+a:hover{
+color: #DE741C;
+transform: translateX(20px) scale(1.15);
+transition: transform 0.25s ease;
+}
+
+a:focus{
+color:#FEA837;
+transform: scale(1.25);
+}
+
+a:active{
+color: purple;
+}
+
+@media (max-width: 450px){
+   body{
+font-size: 1.2rem;
+   }
+}
+
+.video2{
+width: 50%;
+height: auto;
+max-width: 100%;
+display: block;
+margin-left: 25%;
+}
+
+.video3{
+width: 50%;
+height: auto;
+max-width: 100%;
+display: block;
+margin-left: 25%;
+}
+
+.container{
+background-color:#B85B56;
+border-radius: 25px; 
+margin-right: 50px;
+margin-left: 50px;
+margin-top: 50px;
+margin-bottom: 50px;
+padding-top: 50px;
+padding-bottom: 25px;
+
+
+}
+
+.images{
+width: 50vw;
+height: 30vh;
+}
+
+
